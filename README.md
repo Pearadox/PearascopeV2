@@ -11,9 +11,9 @@ Houses the main() function for the app.  Processes the command line arguments an
 #### Command Line Arguments
 |Argument|Purpose|
 |---|---|
-|-year YYYY|Can be provided to specify which processor to use.  If not provided, app defaults to the current year.|
-|-raw|For each log file, also generate a raw dump of all log entries during auto and teleop periods (cannot be used with -monitor)|
+|-year:YYYY|Can be provided to specify which processor to use.  If not provided, app defaults to the current year.|
 |-monitor|Constantly monitor for new files in the ./input folder (this is the primary intended use case) |
+|-raw|For each log file, also generate a raw dump of all log entries during auto and teleop periods (cannot be used with -monitor)|
 |&lt;file paths&gt;|One or more file paths separated by a space - paths can be relative or absolute.  If no paths are provided, all files in ./input will be processed.|
 
 ### PearascopeProcessor.java
